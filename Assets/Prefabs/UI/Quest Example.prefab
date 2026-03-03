@@ -215,6 +215,7 @@ MonoBehaviour:
   requiredItem: 0
   progressSlider: {fileID: 6114905777716408499}
   progressValue: {fileID: 537612999236605799}
+  QuestObject: {fileID: 5576177112227545877}
 --- !u!1 &4332715755386152683
 GameObject:
   m_ObjectHideFlags: 0
