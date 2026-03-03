@@ -1,9 +1,13 @@
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class InteractController : MonoBehaviour
 {
     private bool lookingAtObject;
+    [SerializeField] private GameObject interactText;
+    public static bool onPhone = false;
+    private GameObject lastPhoneLooked;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,14 +18,35 @@ public class InteractController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(Input.GetMouseButtonDown(0) && lookingAtObject)
+        {
+            lastPhoneLooked.gameObject.GetComponent<PhoneController>().calling = true;
+            interactText.SetActive(false);
+            onPhone = true;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == 6)
+        if (other.gameObject.layer == 6 && other.gameObject.GetComponent<PhoneController>().calling == false)
         {
             Debug.Log("looking at " + other.gameObject.name);
+            interactText.SetActive(true);
+
+            lastPhoneLooked = other.gameObject;
+            lookingAtObject = true;
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.layer == 6)
+        {
+            Debug.Log("not looking at " + other.gameObject.name);
+            interactText.SetActive(false);
+            
+            lookingAtObject = false;
+        }
+    }
+
 }
