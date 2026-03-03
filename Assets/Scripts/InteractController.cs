@@ -26,7 +26,7 @@ public class InteractController : MonoBehaviour
 
             //pretend theres the message here
             onPhone = false;
-            lastPhoneLooked.
+            lastPhoneLooked.PhoneDisappears();
         }
     }
 
@@ -37,7 +37,7 @@ public class InteractController : MonoBehaviour
             Debug.Log("looking at " + other.gameObject.name);
             interactText.SetActive(true);
 
-            //lastPhoneLooked.gameObject = other.gameObject;
+            lastPhoneLooked = other.gameObject.GetComponent<PhoneController>();
             lookingAtObject = true;
         }
     }
