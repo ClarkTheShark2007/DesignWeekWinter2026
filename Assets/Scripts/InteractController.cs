@@ -7,7 +7,7 @@ public class InteractController : MonoBehaviour
     private bool lookingAtObject;
     [SerializeField] private GameObject interactText;
     public static bool onPhone = false;
-    private GameObject lastPhoneLooked;
+    private PhoneController lastPhoneLooked;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +23,10 @@ public class InteractController : MonoBehaviour
             lastPhoneLooked.gameObject.GetComponent<PhoneController>().calling = true;
             interactText.SetActive(false);
             onPhone = true;
+
+            //pretend theres the message here
+            onPhone = false;
+            lastPhoneLooked.
         }
     }
 
@@ -33,7 +37,7 @@ public class InteractController : MonoBehaviour
             Debug.Log("looking at " + other.gameObject.name);
             interactText.SetActive(true);
 
-            lastPhoneLooked = other.gameObject;
+            //lastPhoneLooked.gameObject = other.gameObject;
             lookingAtObject = true;
         }
     }
