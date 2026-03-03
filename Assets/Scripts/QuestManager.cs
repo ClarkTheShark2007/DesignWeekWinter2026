@@ -6,13 +6,12 @@ using UnityEngine.UI;
 public class QuestManager : MonoBehaviour
 {
 
-    int amounttospawn;
+    int amountToSpawn;
     int questToSpawn;
 
     public GameObject questPrefab; // Prefab for the quest UI element
     void Start()
     {
-        //AddQuest();
     }
 
     void Update()
@@ -20,17 +19,18 @@ public class QuestManager : MonoBehaviour
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             questToSpawn = Random.Range(1, 4);
+            amountToSpawn = Random.Range(1, 11);
             if (questToSpawn == 1)
             {
-                AddQuest("Collect 2 spellbooks");
+                AddQuest("Collect " + amountToSpawn + " spellbooks");
             }
             else if (questToSpawn == 2)
             {
-                AddQuest("Collect 10 Herbs");
+                AddQuest("Collect " + amountToSpawn + " wands");
             }
             else if (questToSpawn == 3)
             {
-                AddQuest("Collect 1 Wand");
+                AddQuest("Collect " + amountToSpawn + " herbs");
             }
         }
     }
@@ -39,6 +39,6 @@ public class QuestManager : MonoBehaviour
     {
         GameObject quest = Instantiate(questPrefab, transform); // Create a new quest UI element as a child of the QuestManager
         quest.GetComponentInChildren<TMP_Text>().text = QuestTitle; // Set the quest description
-
+        quest.GetComponentInChildren<QuestDetails>().requiredItem = amountToSpawn;
     }
 }
