@@ -11,6 +11,8 @@ public class QuestDetails : MonoBehaviour
     public Slider progressSlider;
     public TextMeshProUGUI progressValue;
 
+    public GameObject QuestObject;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,7 +29,7 @@ public class QuestDetails : MonoBehaviour
 
         if(collectedItem >= requiredItem)
         {
-                Destroy(gameObject); // Destroy the quest UI element when the quest is completed
+                Destroy(QuestObject); // Destroy the quest UI element when the quest is completed
         }
     }
 }
