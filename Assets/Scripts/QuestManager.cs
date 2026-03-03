@@ -20,20 +20,20 @@ public class QuestManager : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            questToSpawn = Random.Range(1, 4);
-            amountToSpawn = Random.Range(1, 11);
-            if (questToSpawn == 1)
-            {
-                AddQuest("Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks pls");
-            }
-            else if (questToSpawn == 2)
-            {
-                AddQuest("Collect " + amountToSpawn + " wands", "Where is my " + amountToSpawn + " wands from that greedy wizard? GET IT TO ME NOW");
-            }
-            else if (questToSpawn == 3)
-            {
-                AddQuest("Collect " + amountToSpawn + " herbs", "I would love " + amountToSpawn + " herbs from the wizards");
-            }
+            //questToSpawn = Random.Range(1, 4);
+            //amountToSpawn = Random.Range(1, 11);
+            //if (questToSpawn == 1)
+            //{
+            //    AddQuest("Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks pls");
+            //}
+            //else if (questToSpawn == 2)
+            //{
+            //    AddQuest("Collect " + amountToSpawn + " wands", "Where is my " + amountToSpawn + " wands from that greedy wizard? GET IT TO ME NOW");
+            //}
+            //else if (questToSpawn == 3)
+            //{
+            //    AddQuest("Collect " + amountToSpawn + " herbs", "I would love " + amountToSpawn + " herbs from the wizards");
+            //}
         }
 
         if (Mouse.current.rightButton.wasPressedThisFrame)
@@ -69,5 +69,28 @@ public class QuestManager : MonoBehaviour
 
         isCallerTalking = false;
         print("Typewriter effect is completed");
+    }
+
+    public void AddToList()
+    {
+        questToSpawn = Random.Range(1, 4);
+        amountToSpawn = Random.Range(1, 11);
+        if (questToSpawn == 1)
+        {
+            AddQuest("Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks pls");
+        }
+        else if (questToSpawn == 2)
+        {
+            AddQuest("Collect " + amountToSpawn + " wands", "Where is my " + amountToSpawn + " wands from that greedy wizard? GET IT TO ME NOW");
+        }
+        else if (questToSpawn == 3)
+        {
+            AddQuest("Collect " + amountToSpawn + " herbs", "I would love " + amountToSpawn + " herbs from the wizards");
+        }
+    }
+
+    public void Speak()
+    {
+
     }
 }
