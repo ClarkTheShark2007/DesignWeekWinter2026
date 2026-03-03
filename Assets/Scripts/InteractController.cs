@@ -8,6 +8,7 @@ public class InteractController : MonoBehaviour
     [SerializeField] private GameObject interactText;
     public static bool onPhone = false;
     private PhoneController lastPhoneLooked;
+    [SerializeField] QuestManager questManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +24,8 @@ public class InteractController : MonoBehaviour
             lastPhoneLooked.gameObject.GetComponent<PhoneController>().calling = true;
             interactText.SetActive(false);
             onPhone = true;
+
+            questManager.AddToList();
 
             //pretend theres the message here
             onPhone = false;

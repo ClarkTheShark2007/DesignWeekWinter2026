@@ -29,7 +29,8 @@ public class PhoneSpawner : MonoBehaviour
             if (CheckIfEmpty())
             {
                 PhoneSpawnPoint emptyPoint = FindEmptyPoint();
-                Instantiate(phonePrefab, emptyPoint.gameObject.transform);
+                GameObject newPhone = Instantiate(phonePrefab, emptyPoint.gameObject.transform);
+                newPhone.GetComponent<PhoneController>().assignedSpawn = emptyPoint;
                 emptyPoint.occupied = true;
             }
             spawnTimer = 0;
