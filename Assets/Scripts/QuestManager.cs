@@ -16,26 +16,19 @@ public class QuestManager : MonoBehaviour
     public TextMeshProUGUI callerSpeachText; // Text for the caller speech UI element
     public GameObject callerSpeach; // caller UI element
 
+    public static int spellbooksNeeded;
+    public static int wandsNeeded;
+    public static int herbsNeeded;
+
+    private void Start()
+    {
+        spellbooksNeeded = 0;
+        wandsNeeded = 0;
+        herbsNeeded = 0;
+}
+
     void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            //questToSpawn = Random.Range(1, 4);
-            //amountToSpawn = Random.Range(1, 11);
-            //if (questToSpawn == 1)
-            //{
-            //    AddQuest("Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks pls");
-            //}
-            //else if (questToSpawn == 2)
-            //{
-            //    AddQuest("Collect " + amountToSpawn + " wands", "Where is my " + amountToSpawn + " wands from that greedy wizard? GET IT TO ME NOW");
-            //}
-            //else if (questToSpawn == 3)
-            //{
-            //    AddQuest("Collect " + amountToSpawn + " herbs", "I would love " + amountToSpawn + " herbs from the wizards");
-            //}
-        }
-
         if (Mouse.current.rightButton.wasPressedThisFrame)
         {
             callerSpeach.gameObject.SetActive(false); // Hide the caller speech text when the right mouse button is pressed (Can be diffretn just as an example)
@@ -43,13 +36,17 @@ public class QuestManager : MonoBehaviour
 
     }
 
-    public void AddQuest(string QuestTitle, string callerSpeech)
+    public void AddQuest(bool giveQuest, int objectType, string QuestTitle, string callerSpeech)
     {
-        GameObject quest = Instantiate(questPrefab, transform); // Create a new quest UI element as a child of the QuestManager
+        if(giveQuest)
+        {
+            GameObject quest = Instantiate(questPrefab, transform); // Create a new quest UI element as a child of the QuestManager
+            quest.GetComponentInChildren<TMP_Text>().text = QuestTitle; // Set the quest description
+            quest.GetComponentInChildren<QuestDetails>().requiredItem = amountToSpawn;
 
-        quest.GetComponentInChildren<TMP_Text>().text = QuestTitle; // Set the quest description
-        quest.GetComponentInChildren<QuestDetails>().requiredItem = amountToSpawn;
-
+            QuestDetails details = quest.GetComponentInChildren<QuestDetails>();
+            details.collectableType = objectType;
+        }
         StartCoroutine(StartCallerSpeech(callerSpeech)); // Start the typewriter effect for the caller's speech
 
     }
@@ -74,18 +71,43 @@ public class QuestManager : MonoBehaviour
     public void AddToList()
     {
         questToSpawn = Random.Range(1, 4);
-        amountToSpawn = Random.Range(1, 11);
+
+        amountToSpawn = Random.Range(1, 7);
         if (questToSpawn == 1)
         {
-            AddQuest("Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks pls");
+            if (spellbooksNeeded <= 0)
+            {
+                spellbooksNeeded = amountToSpawn;
+                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks pls");
+            }
+            else
+            {
+                AddQuest(false, questToSpawn, "DOESNT MATTER", "Hey buddy, do you have a moment to talk about vacuum cleaners?");
+            }
         }
         else if (questToSpawn == 2)
         {
-            AddQuest("Collect " + amountToSpawn + " wands", "Where is my " + amountToSpawn + " wands from that greedy wizard? GET IT TO ME NOW");
+            if (wandsNeeded <= 0)
+            {
+                wandsNeeded = amountToSpawn;
+                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " wands", "Where is my " + amountToSpawn + " wands from that greedy wizard? GET IT TO ME NOW");
+            }
+            else
+            {
+                AddQuest(false, questToSpawn, "DOESNT MATTER", "Your security information has been found in a privacy breach. Stay on the line while we figure out how to solve the issue.");
+            }
         }
         else if (questToSpawn == 3)
         {
-            AddQuest("Collect " + amountToSpawn + " herbs", "I would love " + amountToSpawn + " herbs from the wizards");
+            if (herbsNeeded <= 0)
+            {
+                herbsNeeded = amountToSpawn;
+                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " herbs", "I would love " + amountToSpawn + " herbs from the wizards");
+            }
+            else
+            {
+                AddQuest(false, questToSpawn, "DOESNT MATTER", "You have won 1,000,000 pieces of gold! Please state your banking information to have us deposit the gold in your account.");
+            }
         }
     }
 

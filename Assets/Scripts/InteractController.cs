@@ -37,7 +37,6 @@ public class InteractController : MonoBehaviour
     {
         if (other.gameObject.layer == 6 && other.gameObject.GetComponent<PhoneController>().calling == false)
         {
-            Debug.Log("looking at " + other.gameObject.name);
             interactText.SetActive(true);
 
             lastPhoneLooked = other.gameObject.GetComponent<PhoneController>();
@@ -49,7 +48,6 @@ public class InteractController : MonoBehaviour
     {
         if (other.gameObject.layer == 6)
         {
-            Debug.Log("not looking at " + other.gameObject.name);
             interactText.SetActive(false);
             
             lookingAtObject = false;
