@@ -39,12 +39,6 @@ public class CollectableSpawner : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-
-            tempPhoneHold.transform.parent = null;
-            tempPhoneHold.GetComponentInChildren<Collider>().enabled = true;
-            tempPhoneHold.GetComponent<Rigidbody>().AddForce(tempCamera.transform.forward * 5000);
-            tempPhoneHold.GetComponent<Rigidbody>().useGravity = true;
-
             //foreach(GameObject go in booksSpawned)
             //{
             //    Destroy(go);
