@@ -6,6 +6,12 @@ public class QuestCollectible : MonoBehaviour
     //1 = spellbook
     //2 = wand
     //3 = herb
+    private PhoneSpawnPoint spawnScript;
+
+    private void Start()
+    {
+        spawnScript = GetComponentInParent<PhoneSpawnPoint>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -26,6 +32,9 @@ public class QuestCollectible : MonoBehaviour
             }
 
             //play little jingle
+
+            spawnScript.occupied = false;
+
             Debug.Log("Player entered the trigger zone!");
             // Example action: disable the object
             gameObject.SetActive(false);

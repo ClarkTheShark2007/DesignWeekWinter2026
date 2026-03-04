@@ -20,6 +20,8 @@ public class QuestManager : MonoBehaviour
     public static int wandsNeeded;
     public static int herbsNeeded;
 
+    public CollectableSpawner spawnerScript;
+
     private void Start()
     {
         spellbooksNeeded = 0;
@@ -46,6 +48,8 @@ public class QuestManager : MonoBehaviour
 
             QuestDetails details = quest.GetComponentInChildren<QuestDetails>();
             details.collectableType = objectType;
+
+            spawnerScript.SpawnItems(amountToSpawn, objectType);
         }
         StartCoroutine(StartCallerSpeech(callerSpeech)); // Start the typewriter effect for the caller's speech
 
@@ -72,13 +76,15 @@ public class QuestManager : MonoBehaviour
     {
         questToSpawn = Random.Range(1, 4);
 
-        amountToSpawn = Random.Range(1, 7);
+        amountToSpawn = Random.Range(1, 3); //there have to be at least one less number spawn points in the game world for each item
+
         if (questToSpawn == 1)
         {
             if (spellbooksNeeded <= 0)
             {
                 spellbooksNeeded = amountToSpawn;
                 AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks pls");
+
             }
             else
             {
