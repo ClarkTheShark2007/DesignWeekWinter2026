@@ -7,7 +7,7 @@ public class SliderCheck : MonoBehaviour, IPointerUpHandler
     public int SliderMaxValue = 1;
     public Slider progressSlider;
     public PhoneAnswer phoneAnswer;
-
+    public int TypeOfPhone; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,7 +26,7 @@ public class SliderCheck : MonoBehaviour, IPointerUpHandler
         if(sliderValue >= 1)
         {
             Debug.Log("Slider is at maximum value!");
-            phoneAnswer.AnswerPhone(1);
+            phoneAnswer.AnswerPhone(TypeOfPhone);
             progressSlider.value = 0;
             gameObject.SetActive(false);
         }

@@ -490,3 +490,4 @@ MonoBehaviour:
   SliderMaxValue: 1
   progressSlider: {fileID: 0}
   phoneAnswer: {fileID: 0}
+  TypeOfPhone: 1
