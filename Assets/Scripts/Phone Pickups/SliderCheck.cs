@@ -21,10 +21,10 @@ public class SliderCheck : MonoBehaviour, IPointerUpHandler
     void Update()
     {
         float sliderValue = progressSlider.value;
+        Debug.Log("Current Slider Value: " + sliderValue);
 
-        if(sliderValue >= 1)
+        if (sliderValue >= 1)
         {
-            Debug.Log("Slider is at maximum value!");
             phoneAnswer.AnswerPhone(TypeOfPhone);
             progressSlider.value = 0;
             gameObject.SetActive(false);
