@@ -12,7 +12,6 @@ public class SliderCheck : MonoBehaviour, IPointerUpHandler
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        progressSlider = GetComponentInChildren<Slider>();
         progressSlider.minValue = 0;
         progressSlider.maxValue = SliderMaxValue;
         phoneAnswer = GetComponent<PhoneAnswer>();
