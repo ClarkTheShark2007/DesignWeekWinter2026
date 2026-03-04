@@ -23,6 +23,9 @@ public class CollectableSpawner : MonoBehaviour
     private GameObject tempPrefab;
     private List<GameObject> tempList;
 
+    public GameObject tempPhoneHold;
+    public GameObject tempCamera;
+
     int spawnsLeft;
 
     void Start()
@@ -36,19 +39,24 @@ public class CollectableSpawner : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            foreach(GameObject go in booksSpawned)
-            {
-                Destroy(go);
-            }
-            foreach (GameObject go in wandsSpawned)
-            {
-                Destroy(go);
-            }
-            foreach (GameObject go in herbsSpawned)
-            {
-                Destroy(go);
-            }
-            Debug.Log("e was pressed");
+
+            tempPhoneHold.transform.parent = null;
+            tempPhoneHold.GetComponentInChildren<Collider>().enabled = true;
+            tempPhoneHold.GetComponent<Rigidbody>().AddForce(tempCamera.transform.forward * 5000);
+            tempPhoneHold.GetComponent<Rigidbody>().useGravity = true;
+
+            //foreach(GameObject go in booksSpawned)
+            //{
+            //    Destroy(go);
+            //}
+            //foreach (GameObject go in wandsSpawned)
+            //{
+            //    Destroy(go);
+            //}
+            //foreach (GameObject go in herbsSpawned)
+            //{
+            //    Destroy(go);
+            //}
         }
 
     }
