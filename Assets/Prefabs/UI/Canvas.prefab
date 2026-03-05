@@ -1263,6 +1263,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4642600630767885483, guid: 594376bc005af3e46a09fa4e42a187c6, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5576177112227545877, guid: 594376bc005af3e46a09fa4e42a187c6, type: 3}
       propertyPath: m_Name
       value: Quest Example (1)
