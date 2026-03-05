@@ -1,3 +1,7 @@
+using KinematicCharacterController;
+using KinematicCharacterController.Examples;
+using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -12,18 +16,25 @@ public class InteractController : MonoBehaviour
     public GameObject[] minigames;
 
     private GameObject cameraGO;
+    [SerializeField] public GameObject publicCC;
+    public static List<MonoBehaviour> characterControllers = new List<MonoBehaviour>();
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         cameraGO = GetComponentInParent<Camera>().gameObject;
         Debug.Log(cameraGO.name);
+        characterControllers.Clear();
+        characterControllers.Add(publicCC.GetComponent<ExampleCharacterController>());
+        characterControllers.Add(publicCC.GetComponent<KinematicCharacterMotor>());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0) && lookingAtObject && lastPhoneLooked)
+
+        if(Input.GetMouseButtonDown(0) && lookingAtObject && lastPhoneLooked && !onPhone)
         {
             
             PhoneController lastPhoneScript = lastPhoneLooked.gameObject.GetComponent<PhoneController>();
@@ -33,6 +44,11 @@ public class InteractController : MonoBehaviour
 
             interactText.SetActive(false);
             onPhone = true;
+            foreach (MonoBehaviour m in characterControllers)
+            {
+                m.enabled = false;
+            }
+            //characterController.enabled = false;
 
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
@@ -42,6 +58,8 @@ public class InteractController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1) && PhoneAnswer.phoneInHand)
         {
+
+            onPhone = false;
 
             PhoneAnswer.phoneInHand.transform.SetParent(null);
             PhoneAnswer.phoneInHand.GetComponentInChildren<Collider>().enabled = true;
