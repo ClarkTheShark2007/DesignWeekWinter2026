@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PhoneDespawner : MonoBehaviour
 {
-    int despawnTime = 10; // Time in seconds before the phone is despawned
+    int despawnTime = 30; // Time in seconds before the phone is despawned
     float currentTime = 0f;
 
     // Update is called once per frame
