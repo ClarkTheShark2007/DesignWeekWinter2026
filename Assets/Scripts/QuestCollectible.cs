@@ -30,6 +30,14 @@ public class QuestCollectible : MonoBehaviour
             {
                 QuestManager.herbsNeeded--;
             }
+            else if (collectableType == 4)
+            {
+                QuestManager.crystalsNeeded--;
+            }
+            else if (collectableType == 5)
+            {
+                QuestManager.potionsNeeded--;
+            }
 
             //play little jingle
 

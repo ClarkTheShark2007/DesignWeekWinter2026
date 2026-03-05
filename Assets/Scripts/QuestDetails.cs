@@ -44,6 +44,14 @@ public class QuestDetails : MonoBehaviour
         {
             collectedItem = requiredItem - QuestManager.herbsNeeded;
         }
+        else if (collectableType == 4)
+        {
+            collectedItem = requiredItem - QuestManager.crystalsNeeded;
+        }
+        else if (collectableType == 5)
+        {
+            collectedItem = requiredItem - QuestManager.potionsNeeded;
+        }
 
         progressValue.text = collectedItem + "/" + requiredItem;
         progressSlider.value = collectedItem;
@@ -52,7 +60,7 @@ public class QuestDetails : MonoBehaviour
         {
             //add more effects that quest has been completed, maybe big text on screen
             Instantiate(questOverPrefab, canvasParent.transform);
-                Destroy(QuestObject); // Destroy the quest UI element when the quest is completed
+            Destroy(QuestObject); // Destroy the quest UI element when the quest is completed
         }
     }
 }

@@ -19,6 +19,8 @@ public class QuestManager : MonoBehaviour
     public static int spellbooksNeeded;
     public static int wandsNeeded;
     public static int herbsNeeded;
+    public static int crystalsNeeded;
+    public static int potionsNeeded;
 
     public CollectableSpawner spawnerScript;
 
@@ -27,6 +29,8 @@ public class QuestManager : MonoBehaviour
         spellbooksNeeded = 0;
         wandsNeeded = 0;
         herbsNeeded = 0;
+        crystalsNeeded = 0;
+        potionsNeeded = 0;
 }
 
     void Update()
@@ -74,16 +78,16 @@ public class QuestManager : MonoBehaviour
 
     public void AddToList()
     {
-        questToSpawn = Random.Range(1, 4);
+        questToSpawn = Random.Range(1, 6);
 
-        amountToSpawn = Random.Range(1, 3); //there have to be at least one less number spawn points in the game world for each item
+        amountToSpawn = Random.Range(2, 5); //there have to be at least one less number spawn points in the game world for each item
 
         if (questToSpawn == 1)
         {
             if (spellbooksNeeded <= 0)
             {
                 spellbooksNeeded = amountToSpawn;
-                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks pls");
+                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " spellbooks", "I want " + amountToSpawn + " spellbooks please.");
 
             }
             else
@@ -96,7 +100,7 @@ public class QuestManager : MonoBehaviour
             if (wandsNeeded <= 0)
             {
                 wandsNeeded = amountToSpawn;
-                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " wands", "Where is my " + amountToSpawn + " wands from that greedy wizard? GET IT TO ME NOW");
+                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " wands", "Where are my " + amountToSpawn + " wands from that greedy wizard? I asked for these days ago!");
             }
             else
             {
@@ -108,11 +112,35 @@ public class QuestManager : MonoBehaviour
             if (herbsNeeded <= 0)
             {
                 herbsNeeded = amountToSpawn;
-                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " herbs", "I would love " + amountToSpawn + " herbs from the wizards");
+                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " herbs", "I would love " + amountToSpawn + " herbs from the wizard. The wizard is so kind.");
             }
             else
             {
                 AddQuest(false, questToSpawn, "DOESNT MATTER", "You have won 1,000,000 pieces of gold! Please state your banking information to have us deposit the gold in your account.");
+            }
+        }
+        else if (questToSpawn == 4)
+        {
+            if (crystalsNeeded <= 0)
+            {
+                crystalsNeeded = amountToSpawn;
+                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " crystals", "Hey man, I really need " + amountToSpawn + " crystals. You mind sending some over?");
+            }
+            else
+            {
+                AddQuest(false, questToSpawn, "DOESNT MATTER", "This is the wizard checking in. Is everything running smoothly? I've been recieving some complaints regarding long hold times. Do better, my student.");
+            }
+        }
+        else if (questToSpawn == 5)
+        {
+            if (potionsNeeded <= 0)
+            {
+                potionsNeeded = amountToSpawn;
+                AddQuest(true, questToSpawn, "Collect " + amountToSpawn + " potions", "Yo, you got some potions? Gimme " + amountToSpawn + ", yo.");
+            }
+            else
+            {
+                AddQuest(false, questToSpawn, "DOESNT MATTER", "Hello? Hello, hello? Uh… I wanted to record a message for you to help you get settled in on your first night. Um… I actually worked in that office before you. I'm…finishing up my last week now, as a matter of fact, so… I know it can be a bit overwhelming.");
             }
         }
     }

@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578f90a475cd8e74b8e05d5f79be730a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestCollectible
-  collectableType: 3
+  collectableType: 4
 --- !u!135 &2821309449471875806
 SphereCollider:
   m_ObjectHideFlags: 0
