@@ -662,13 +662,8 @@ namespace KinematicCharacterController
         /// </summary>
         public void MoveCharacter(Vector3 toPosition)
         {
-            if (!InteractController.onPhone)
-            {
                 _movePositionDirty = true;
                 _movePositionTarget = toPosition;
-
-            }
-
         }
 
         /// <summary>
@@ -676,12 +671,8 @@ namespace KinematicCharacterController
         /// </summary>
         public void RotateCharacter(Quaternion toRotation)
         {
-            if(InteractController.onPhone)
-            {
                 _moveRotationDirty = true;
                 _moveRotationTarget = toRotation;
-
-            }
         }
 
         /// <summary>

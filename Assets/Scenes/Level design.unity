@@ -8922,6 +8922,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5539229385159733807, guid: edc5c5d6e28258b4291da5bd5e7e4b87, type: 3}
+      propertyPath: m_text
+      value: LEFT-CLICK to pick up!
+      objectReference: {fileID: 0}
     - target: {fileID: 6685614887598210603, guid: edc5c5d6e28258b4291da5bd5e7e4b87, type: 3}
       propertyPath: cameraGO
       value: 
@@ -9672,6 +9676,7 @@ MonoBehaviour:
   - {fileID: 703732849}
   - {fileID: 846433952}
   - {fileID: 879938717}
+  publicCC: {fileID: 1871969984}
 --- !u!54 &1426600109
 Rigidbody:
   m_ObjectHideFlags: 0
