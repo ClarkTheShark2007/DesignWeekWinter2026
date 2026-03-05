@@ -28,11 +28,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 234105254138273296}
   - {fileID: 8325807553984203719}
+  - {fileID: 234105254138273296}
   - {fileID: 354013294425130975}
-  - {fileID: 8269444261438680936}
   - {fileID: 2160514684169063230}
+  - {fileID: 8269444261438680936}
   m_Father: {fileID: 7220472640474381342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1236,11 +1236,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7704018666475160065, guid: fac3f6a70af7e274cb0a04c3f7df8d72, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0000076293945
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7704018666475160065, guid: fac3f6a70af7e274cb0a04c3f7df8d72, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0000038147
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7704018666475160065, guid: fac3f6a70af7e274cb0a04c3f7df8d72, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1257,6 +1257,10 @@ PrefabInstance:
     - target: {fileID: 8462035335149436018, guid: fac3f6a70af7e274cb0a04c3f7df8d72, type: 3}
       propertyPath: m_Name
       value: BannaPhone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462035335149436018, guid: fac3f6a70af7e274cb0a04c3f7df8d72, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9050413080220107584, guid: fac3f6a70af7e274cb0a04c3f7df8d72, type: 3}
       propertyPath: QuestManager

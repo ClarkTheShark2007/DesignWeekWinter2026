@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace KinematicCharacterController
 {
+
     public enum RigidbodyInteractionType
     {
         None,
@@ -661,8 +662,13 @@ namespace KinematicCharacterController
         /// </summary>
         public void MoveCharacter(Vector3 toPosition)
         {
-            _movePositionDirty = true;
-            _movePositionTarget = toPosition;
+            if (!InteractController.onPhone)
+            {
+                _movePositionDirty = true;
+                _movePositionTarget = toPosition;
+
+            }
+
         }
 
         /// <summary>
@@ -670,8 +676,12 @@ namespace KinematicCharacterController
         /// </summary>
         public void RotateCharacter(Quaternion toRotation)
         {
-            _moveRotationDirty = true;
-            _moveRotationTarget = toRotation;
+            if(InteractController.onPhone)
+            {
+                _moveRotationDirty = true;
+                _moveRotationTarget = toRotation;
+
+            }
         }
 
         /// <summary>

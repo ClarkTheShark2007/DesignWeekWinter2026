@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3000053647918900142}
-  m_Mesh: {fileID: 4493585093827132993, guid: ea40abb63ead4f349be1b4c5ea9f035c, type: 3}
+  m_Mesh: {fileID: 4493585093827132993, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
 --- !u!23 &4545880899043068932
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -66,8 +66,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: ea40abb63ead4f349be1b4c5ea9f035c, type: 3}
-  - {fileID: 4874126678125670354, guid: ea40abb63ead4f349be1b4c5ea9f035c, type: 3}
+  - {fileID: -876546973899608171, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
+  - {fileID: 4874126678125670354, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -163,7 +163,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7281154234261393300}
-  m_Mesh: {fileID: -5495902117074765545, guid: ea40abb63ead4f349be1b4c5ea9f035c, type: 3}
+  m_Mesh: {fileID: -5495902117074765545, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
 --- !u!23 &6835458379739429627
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -189,8 +189,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: ea40abb63ead4f349be1b4c5ea9f035c, type: 3}
-  - {fileID: -6629797300637803691, guid: ea40abb63ead4f349be1b4c5ea9f035c, type: 3}
+  - {fileID: -6478536213147159724, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
+  - {fileID: -6629797300637803691, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -223,6 +223,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2795424898919826520}
+  - component: {fileID: 7980981666274651765}
+  - component: {fileID: 577679985850752986}
   m_Layer: 0
   m_Name: Flip Phone(Clone)
   m_TagString: Untagged
@@ -247,3 +249,53 @@ Transform:
   - {fileID: 7699626455324306677}
   m_Father: {fileID: 5037762072873849840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7980981666274651765
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8066315413675672301}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 1.11
+  m_Height: 4.63
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.33, z: 1.01}
+--- !u!54 &577679985850752986
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8066315413675672301}
+  serializedVersion: 5
+  m_Mass: 5
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

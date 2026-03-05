@@ -43,6 +43,8 @@ GameObject:
   - component: {fileID: 3585341329704029650}
   - component: {fileID: 6524276050830467110}
   - component: {fileID: 8551446897171149631}
+  - component: {fileID: 2223277553606909105}
+  - component: {fileID: 1588454580957368265}
   m_Layer: 0
   m_Name: IPhone(Clone)
   m_TagString: Untagged
@@ -72,7 +74,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5292315628305585522}
-  m_Mesh: {fileID: 2534964839176971238, guid: d6c473511c5528e4386ba5d991233ad7, type: 3}
+  m_Mesh: {fileID: 2534964839176971238, guid: bc0904a27726845438a6515c807656ba, type: 3}
 --- !u!23 &8551446897171149631
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -98,9 +100,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: d6c473511c5528e4386ba5d991233ad7, type: 3}
-  - {fileID: -3846018093981099296, guid: d6c473511c5528e4386ba5d991233ad7, type: 3}
-  - {fileID: -876546973899608171, guid: d6c473511c5528e4386ba5d991233ad7, type: 3}
+  - {fileID: -6478536213147159724, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
+  - {fileID: -6629797300637803691, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
+  - {fileID: -876546973899608171, guid: 833a7e86619609448adb4d9ba0ab4ca7, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124,3 +126,52 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2223277553606909105
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292315628305585522}
+  serializedVersion: 5
+  m_Mass: 5
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1588454580957368265
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292315628305585522}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: bc0904a27726845438a6515c807656ba, type: 3}

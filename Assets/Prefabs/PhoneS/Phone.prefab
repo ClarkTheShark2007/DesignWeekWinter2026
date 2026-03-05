@@ -91,6 +91,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 75590851702669551}
   m_SourcePrefab: {fileID: 100100000, guid: 184fffa49192feb4886fc2ce1efb660c, type: 3}
+--- !u!1 &2206066023119527150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: 184fffa49192feb4886fc2ce1efb660c, type: 3}
+  m_PrefabInstance: {fileID: 3180859399724995310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2370519669961338815 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 184fffa49192feb4886fc2ce1efb660c, type: 3}
@@ -108,7 +113,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08d67592d95cd164b8b9b6bf6aaba354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhoneController
+  phoneType: 3
   calling: 0
+  assignedSpawn: {fileID: 0}
+  turnOffOnCall:
+  - {fileID: 2206066023119527150}
+  turnOnOnCall: []
 --- !u!135 &75590851702669551
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -128,5 +138,5 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 2
+  m_Radius: 3
   m_Center: {x: 0, y: 0.27, z: -0.34}

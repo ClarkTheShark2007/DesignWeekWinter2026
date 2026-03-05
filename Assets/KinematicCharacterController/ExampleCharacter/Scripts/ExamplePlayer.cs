@@ -33,7 +33,7 @@ namespace KinematicCharacterController.Examples
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Cursor.lockState = CursorLockMode.Locked;
+                //Cursor.lockState = CursorLockMode.Locked;
             }
 
             if (!InteractController.onPhone)

@@ -6,7 +6,7 @@ public class PhoneSpawner : MonoBehaviour
 {
     public GameObject possibleLocationsParent;
     public PhoneSpawnPoint[] spawnlocations;
-    public GameObject phonePrefab;
+    public GameObject[] phonePrefabs;
 
     [SerializeField] float spawnTimer;
     [SerializeField] float spawnPause;
@@ -29,7 +29,10 @@ public class PhoneSpawner : MonoBehaviour
             if (CheckIfEmpty())
             {
                 PhoneSpawnPoint emptyPoint = FindEmptyPoint();
-                GameObject newPhone = Instantiate(phonePrefab, emptyPoint.gameObject.transform);
+
+                int phoneType = Random.Range(0, 5);
+
+                GameObject newPhone = Instantiate(phonePrefabs[phoneType], emptyPoint.gameObject.transform);
                 newPhone.GetComponent<PhoneController>().assignedSpawn = emptyPoint;
                 emptyPoint.occupied = true;
             }
