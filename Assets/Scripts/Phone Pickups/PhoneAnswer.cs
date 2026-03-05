@@ -1,3 +1,4 @@
+using KinematicCharacterController;
 using UnityEngine;
 
 public class PhoneAnswer : MonoBehaviour
@@ -25,7 +26,11 @@ public class PhoneAnswer : MonoBehaviour
         //4 = Bannana Phone
         //5 = Payphone
 
-        InteractController.onPhone = false;
+        foreach (MonoBehaviour m in InteractController.characterControllers)
+        {
+            m.enabled = true;
+        }
+        //InteractController.characterController.enabled = true;
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

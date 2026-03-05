@@ -36,10 +36,7 @@ namespace KinematicCharacterController.Examples
                 //Cursor.lockState = CursorLockMode.Locked;
             }
 
-            if (!InteractController.onPhone)
-            {
-                HandleCharacterInput();
-            }
+            HandleCharacterInput();
         }
 
         private void LateUpdate()
