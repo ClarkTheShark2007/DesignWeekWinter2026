@@ -211,11 +211,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29bc71d2af5ee024ebaed3952b5218c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestDetails
+  collectableType: 0
   collectedItem: 0
   requiredItem: 0
   progressSlider: {fileID: 6114905777716408499}
   progressValue: {fileID: 537612999236605799}
   QuestObject: {fileID: 5576177112227545877}
+  questOverPrefab: {fileID: 8553232568166032778, guid: 781fa843727a40946995eb367ddfdee3, type: 3}
 --- !u!1 &4332715755386152683
 GameObject:
   m_ObjectHideFlags: 0

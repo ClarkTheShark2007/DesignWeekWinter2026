@@ -16,6 +16,8 @@ public class QuestDetails : MonoBehaviour
     public static bool countCollectable;
 
     public GameObject QuestObject;
+    private GameObject canvasParent;
+    public GameObject questOverPrefab;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +25,8 @@ public class QuestDetails : MonoBehaviour
         progressSlider.wholeNumbers = true;
         progressSlider.minValue = 0;
         progressSlider.maxValue = requiredItem;
+
+        canvasParent = GetComponentInParent<Canvas>().gameObject;
     }
 
     // Update is called once per frame
@@ -47,6 +51,7 @@ public class QuestDetails : MonoBehaviour
         if(collectedItem >= requiredItem)
         {
             //add more effects that quest has been completed, maybe big text on screen
+            Instantiate(questOverPrefab, canvasParent.transform);
                 Destroy(QuestObject); // Destroy the quest UI element when the quest is completed
         }
     }
