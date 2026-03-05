@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29bc71d2af5ee024ebaed3952b5218c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestDetails
+  collectableType: 0
   collectedItem: 0
   requiredItem: 0
   progressSlider: {fileID: 6114905777716408499}
@@ -283,8 +284,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0/1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd8df25d27fcd58499859fc3369188be, type: 2}
+  m_sharedMaterial: {fileID: -2130010578571096416, guid: dd8df25d27fcd58499859fc3369188be, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -308,7 +309,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.95
+  m_fontSize: 18.6
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -407,7 +408,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5576177112227545877}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -464,8 +465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100.89406, y: -14.108}
-  m_SizeDelta: {x: 196.5978, y: 21.185}
+  m_AnchoredPosition: {x: 100.68, y: -14.108}
+  m_SizeDelta: {x: 190.38, y: 21.185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &609509800021653445
 CanvasRenderer:
@@ -497,8 +498,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'This is a quest '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd8df25d27fcd58499859fc3369188be, type: 2}
+  m_sharedMaterial: {fileID: -2130010578571096416, guid: dd8df25d27fcd58499859fc3369188be, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -522,7 +523,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.95
+  m_fontSize: 18.6
   m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 1
