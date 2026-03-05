@@ -197,6 +197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BananaClosed
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97a43090ce23cdc44bd6eeaa3c521f48, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
