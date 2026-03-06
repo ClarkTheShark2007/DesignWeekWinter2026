@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -281,6 +285,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_Name
       value: Stool_A (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
@@ -387,6 +395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -456,6 +468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.7513
@@ -524,6 +540,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -604,6 +624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -672,6 +696,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -838,6 +866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -907,6 +939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.251379
@@ -964,6 +1000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.894959
@@ -1020,6 +1060,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -1090,6 +1134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roundabout_Continuation (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 77764f3a8cc8f57439dedb2107f1a89b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 77764f3a8cc8f57439dedb2107f1a89b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.854391
@@ -1159,6 +1207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.665791
@@ -1220,6 +1272,10 @@ PrefabInstance:
     - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_Name
       value: Candles (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
@@ -1480,6 +1536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -1650,6 +1710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -1729,6 +1793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.25201
@@ -1785,6 +1853,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_Name
       value: Stool_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1978,6 +2050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candles (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.5543997
@@ -2046,6 +2122,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -2116,6 +2196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stool_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4231
@@ -2184,6 +2268,10 @@ PrefabInstance:
     - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_Name
       value: Chain_C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2304,6 +2392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Cage (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 480052, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5645
@@ -2372,6 +2464,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -2808,6 +2904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -2876,6 +2976,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -3017,6 +3121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.7513
@@ -3085,6 +3193,10 @@ PrefabInstance:
     - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_Name
       value: Chain_D
+      objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3285,6 +3397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -3359,6 +3475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Gate
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8377b28f368c45d4199bae71a2a5eabc, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8377b28f368c45d4199bae71a2a5eabc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.265703
@@ -3430,6 +3550,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -3564,6 +3688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.684082
@@ -3621,6 +3749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.8658
@@ -3677,6 +3809,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -3819,6 +3955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -3888,6 +4028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2943254
@@ -3944,6 +4088,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -4013,6 +4161,10 @@ PrefabInstance:
     - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_Name
       value: Chain_D (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4229,6 +4381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.482931
@@ -4286,6 +4442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.835258
@@ -4342,6 +4502,10 @@ PrefabInstance:
     - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_Name
       value: Candles (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
@@ -4422,6 +4586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candles (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.5543997
@@ -4490,6 +4658,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -4745,6 +4917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -4824,6 +5000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.7513
@@ -4893,6 +5073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1046004
@@ -4961,6 +5145,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -5051,6 +5239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.172647
@@ -5107,6 +5299,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -5243,6 +5439,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5384,6 +5584,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_Name
       value: Stool_A (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
@@ -5693,6 +5897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Cage
       objectReference: {fileID: 0}
+    - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 480052, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5645
@@ -5767,6 +5975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.578062
@@ -5828,6 +6040,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5898,6 +6114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.722006
@@ -5954,6 +6174,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -6028,6 +6252,10 @@ PrefabInstance:
     - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_Name
       value: Floor_Cage (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 480052, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_LocalScale.x
@@ -6108,6 +6336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stool_A (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4231
@@ -6176,6 +6408,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -6458,6 +6694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -6531,6 +6771,10 @@ PrefabInstance:
     - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_Name
       value: Candles (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
@@ -6611,6 +6855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -6684,6 +6932,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_Name
       value: Stool_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
@@ -6759,6 +7011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.243206
@@ -6815,6 +7071,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -6951,6 +7211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -7019,6 +7283,10 @@ PrefabInstance:
     - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_Name
       value: Chain_D (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7225,6 +7493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs_E
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5fafd51f70faff24c83b1fb395bd34ff, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5fafd51f70faff24c83b1fb395bd34ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5468084
@@ -7317,6 +7589,10 @@ PrefabInstance:
     - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_Name
       value: Chain_D (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7553,6 +7829,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -7977,6 +8257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -8045,6 +8329,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -8307,6 +8595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -8381,6 +8673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.394905
@@ -8437,6 +8733,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -8512,6 +8812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -8581,6 +8885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.979401
@@ -8637,6 +8945,10 @@ PrefabInstance:
     - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_Name
       value: Floor_Cage (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 480052, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_LocalScale.x
@@ -8711,6 +9023,10 @@ PrefabInstance:
     - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_Name
       value: Chain_C (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8810,6 +9126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -8889,6 +9209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -8957,6 +9281,10 @@ PrefabInstance:
     - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_Name
       value: Floor_Cage (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 480052, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_LocalScale.x
@@ -9173,6 +9501,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -9680,6 +10012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -9754,6 +10090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.3591375
@@ -9810,6 +10150,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
       propertyPath: m_Name
       value: Barrel (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
       propertyPath: m_LocalScale.x
@@ -9880,6 +10224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.0631461
@@ -9936,6 +10284,10 @@ PrefabInstance:
     - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_Name
       value: Candles (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
@@ -10005,6 +10357,10 @@ PrefabInstance:
     - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_Name
       value: Candles (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
@@ -10080,6 +10436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -10148,6 +10508,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -10328,6 +10692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -10396,6 +10764,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -10602,6 +10974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.992926
@@ -10659,6 +11035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.762641
@@ -10715,6 +11095,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -10789,6 +11173,10 @@ PrefabInstance:
     - target: {fileID: 100008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
       propertyPath: m_Name
       value: Dungeon_Key_Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10974,6 +11362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -11110,6 +11502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stool_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4231
@@ -11178,6 +11574,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_Name
       value: Stool_A (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
@@ -11315,6 +11715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stool_A (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99eb208358f64d247b2294b674f35fd7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4231
@@ -11383,6 +11787,10 @@ PrefabInstance:
     - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_Name
       value: Candles (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
@@ -11453,6 +11861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -11521,6 +11933,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -11595,6 +12011,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -11722,6 +12142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs_F
       objectReference: {fileID: 0}
+    - target: {fileID: 117174, guid: 7c84b5794225d8a4ca0500ec37701101, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 498106, guid: 7c84b5794225d8a4ca0500ec37701101, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.8485
@@ -11790,6 +12214,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -11865,6 +12293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dungeon_Key_Set
       objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.8662
@@ -11934,6 +12366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_C (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.987436
@@ -11990,6 +12426,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -12060,6 +12500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dungeon_Key_Set (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 85c5775d75be5dc4396c136e3f6fe201, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.390783
@@ -12121,6 +12565,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -12378,6 +12826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.620609
@@ -12434,6 +12886,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -12503,6 +12959,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 77764f3a8cc8f57439dedb2107f1a89b, type: 3}
       propertyPath: m_Name
       value: Roundabout_Continuation (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 77764f3a8cc8f57439dedb2107f1a89b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 77764f3a8cc8f57439dedb2107f1a89b, type: 3}
       propertyPath: m_LocalScale.x
@@ -12725,6 +13185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -12827,6 +13291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Cage (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 143930, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 480052, guid: 08e1ecba9be6e5b418edf1bf869b4e00, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5645
@@ -12927,6 +13395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1046004
@@ -13005,6 +13477,10 @@ PrefabInstance:
     - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_Name
       value: Candles (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
@@ -13085,6 +13561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.7513
@@ -13153,6 +13633,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -13270,6 +13754,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -13406,6 +13894,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -13607,6 +14099,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -13895,6 +14391,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 77764f3a8cc8f57439dedb2107f1a89b, type: 3}
       propertyPath: m_Name
       value: Roundabout_Continuation
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 77764f3a8cc8f57439dedb2107f1a89b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 77764f3a8cc8f57439dedb2107f1a89b, type: 3}
       propertyPath: m_LocalScale.x
@@ -14292,6 +14792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chain_D (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 120264, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 489698, guid: 065afdc0580dbbe498b318b35d182112, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.605549
@@ -14593,6 +15097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_C (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1843998
@@ -14661,6 +15169,10 @@ PrefabInstance:
     - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_Name
       value: Candles (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 9399e3d779d8660489d87c9559841721, type: 3}
       propertyPath: m_LocalScale.x
@@ -14731,6 +15243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -14799,6 +15315,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
       propertyPath: m_Name
       value: Barrel (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36f258ea05b6e8644ae91a5b98eba017, type: 3}
       propertyPath: m_LocalScale.x
@@ -14879,6 +15399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -14947,6 +15471,10 @@ PrefabInstance:
     - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_Name
       value: Chain_C (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15065,6 +15593,10 @@ PrefabInstance:
     - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_Name
       value: Chain_C (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 60b14b8458acad44090d4c0939e88a86, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15257,6 +15789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.1496136
@@ -15335,6 +15871,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_Name
       value: Crate_C (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9304edb27ba2474ca3a050aa5bc741b, type: 3}
       propertyPath: m_LocalScale.x
@@ -15586,6 +16126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ladder
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 7bade91c709d500478a3cdaa697994d7, type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 7bade91c709d500478a3cdaa697994d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -15737,6 +16281,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
@@ -15927,6 +16475,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_Name
       value: Ceiling
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9947a6e7e8c8208469c1c86e15f5c089, type: 3}
       propertyPath: m_LocalScale.x
